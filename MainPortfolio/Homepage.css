@@ -1,0 +1,572 @@
+body{
+
+    width: 1280px;
+    background-color: #000;
+    height: 100%;
+    color: #fff;
+    font-family: Inter;
+    align-content: center;
+
+}
+
+.toptext {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 84px;
+    margin-top: -100px;
+}
+.featured{
+
+    font-size: 38px;
+    color: #a1a1a1;
+    font-weight: normal;
+
+}
+
+.portfolio{
+
+    font-size: 38px;
+    font-weight: 500;
+
+}
+
+.anchertags{
+
+    font-size: 24px;
+    text-align: right;
+    margin-top: -68px;
+    margin-right: -608px;
+    padding-right: 30px;
+}
+
+.anchertags a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+    margin-right: 5px;
+    padding-right: 20px;
+    transition: 1s;
+}
+
+.anchertags a:hover{
+
+    color: #ff002e
+}
+
+.Images-Parent{
+    
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    
+}
+
+.navigation{
+
+    font-size: 24px;
+    text-align: right;
+    padding-right: 0px;
+    margin-right: -500px;
+    position: absolute;
+    left: 1302px;
+    top: 50px;
+
+}
+
+.navigation a{
+
+    color: #a1a1a1;
+    text-decoration: none;
+    position: relative;
+    padding-right: 15px;
+    padding-top: 40px;
+    transition: 1s;
+}
+
+.navigation a:hover{
+
+    color: #ff002e
+}
+
+.Images-Parent .one{
+
+    position: absolute;
+    top: 1249px;
+    left: 85px;
+    width: 498.5px;
+    height: 575.5px;
+    object-fit: cover;
+    transition: 1s;
+
+}
+
+/* .Images-Parent .one:hover{
+
+    background-color: #0000002d;
+} */
+
+
+.Images-Parent .two{
+
+    position: absolute;
+    top: 1249px;
+    left: 592px;
+    width: 671px;
+    height: 738px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+
+.Images-Parent .three{
+    position: absolute;
+    top: 1249px;
+    left: 1272px;
+    width: 575px;
+    height: 374px;
+    object-fit: cover;
+}
+
+.Images-Parent .four{
+
+    position: absolute;
+    top: 1832px;
+    left: 85px;
+    width: 498.5px;
+    height: 575.5px;
+    object-fit: cover;
+}
+
+.Images-Parent .five{
+
+    position: absolute;
+    top: 2415px;
+    left: 85px;
+    width: 498.5px;
+    height: 575.5px;
+    object-fit: cover;
+}
+
+.Images-Parent .six{
+
+    position: absolute;
+    top: 1630px;
+    left: 1272px;
+    width: 575.5px;
+    height: 575.5px;
+    object-fit: cover;
+}
+
+.Images-Parent .seven{
+
+    position: absolute;
+    top: 1993px;
+    left: 592px;
+    width: 672.5px;
+    height: 575.5px;
+    object-fit: cover;
+}
+
+.Images-Parent .eight{
+
+    position: absolute;
+    top: 2578px;
+    left: 591px;
+    width: 673.5px;
+    height: 412.5px;
+    object-fit: cover;
+}
+
+.Images-Parent .nine{
+
+    position: absolute;
+    top: 2211px;
+    left: 1272px;
+    width: 575.5px;
+    height: 779.5px;
+    object-fit: cover;
+}
+
+.lines{
+
+    position: absolute;
+    top: -695px;
+    right: 0px;
+    left: 75px;
+    z-index: -1;
+}
+
+.aboutme{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 62%;
+    margin-top: 148%;
+    font-size: 38px;
+    color: #a1a1a1;
+    font-family: inter;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.aboutme .about {
+
+    font-size: 38px;
+    color: #a1a1a1;
+    font-weight: 400;
+}
+
+.aboutme .me {
+
+    font-size: 38px;
+    font-weight: 600;
+    color: white;
+}
+
+.finalcontent .study{
+    
+    position: absolute;
+    right: 178px;
+    line-height: 39px;
+    font-weight: 300;
+    font-size: 24px;
+    top: 3176px;
+
+}
+
+.finalcontent .job{
+    
+    position: absolute;
+    right: 193px;
+    line-height: 39px;
+    font-weight: 300;
+    font-size: 24px;
+    top: 3365px;
+
+}
+
+.finalcontent .projects{
+    
+    position: absolute;
+    right: 175px;
+    line-height: 39px;
+    font-weight: 300;
+    font-size: 24px;
+    top: 3507px;
+
+}
+
+.finalcontent .aboutimg{
+    
+    position: absolute;
+    top: 3040px;
+    left: 108px;
+}
+
+.btns{
+
+    position: absolute;
+    left: 805px;
+    line-height: 39px;
+    font-weight: 300;
+    font-size: 24px;
+    top: 3691px;
+    
+    
+}
+
+.btns .Behance{
+
+    position: relative;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #ff002e;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 12px;
+    flex-direction: row;
+    align-items: center;
+    place-content: center;
+}
+
+.btns .Resume{
+
+    position: relative;
+    font-weight: 300;
+    font-size: 24px;
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    outline: none;
+}
+
+.btns .Resume .link{
+
+    position: absolute;
+    bottom: 1px;
+}
+
+.myskills{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 7%;
+    margin-top: 50%;
+    font-size: 38px;
+    color: #a1a1a1;
+    font-family: inter;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.myskills .my {
+
+    font-size: 38px;
+    color: #a1a1a1;
+    font-weight: 400;
+}
+
+.myskills .skills {
+
+    font-size: 38px;
+    font-weight: 600;
+    color: white;
+}
+
+.skills .uiux{
+
+    position: absolute;
+    width: 580px;
+    height: 575px;
+    left: 90px;
+    outline: hidden;
+}
+
+.uiuxtext .uih2 {
+
+    position: absolute;
+    top: 4275px;
+    left: 114px;
+    font-size: 38px;
+    font-weight: 600;
+    z-index: 0;
+}
+
+.uiuxtext .uip {
+
+    position: absolute;
+    top: 4350px;
+    left: 115px;
+    font-size: 24px;
+    font-weight: 300;
+    z-index: 0;
+}
+
+
+
+
+
+.skills .frontend{
+
+    position: absolute;
+    width: 580px;
+    height: 575px;
+    left: 681px;
+    outline: hidden;
+}
+
+.frontendtext .frontendh2 {
+
+    position: absolute;
+    top: 4275px;
+    left: 719px;
+    font-size: 38px;
+    font-weight: 600;
+    z-index: 0;
+}
+
+.frontendtext .frontendp {
+
+    position: absolute;
+    top: 4350px;
+    left: 719px;
+    font-size: 24px;
+    font-weight: 300;
+    z-index: 0;
+}
+
+
+
+
+
+.skills .videoeditor{
+
+    position: absolute;
+    width: 580px;
+    height: 575px;
+    left: 1275px;
+    top: 3936px;
+    outline: hidden;
+}
+
+
+.videoeditortext .videoeditorh2 {
+
+    position: absolute;
+    top: 4275px;
+    left: 1306px;
+    font-size: 38px;
+    font-weight: 600;
+    z-index: 0;
+}
+
+.videoeditortext .videoeditorp {
+
+    position: absolute;
+    top: 4350px;
+    left: 1306px;
+    font-size: 24px;
+    font-weight: 300;
+    z-index: 0;
+}
+
+
+.skills .nocode{
+
+    position: absolute;
+    width: 580px;
+    height: 575px;
+    left: 1272px;
+    top: 4526px;
+    outline: hidden;
+}
+
+
+.nocodetext .nocodeh2 {
+
+    position: absolute;
+    top: 4808px;
+    left: 114px;
+    font-size: 38px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.nocodetext .nocodep {
+
+    position: absolute;
+    top: 4932px;
+    left: 115px;
+    font-size: 24px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+
+
+
+.skills .thumbnail{
+
+    position: absolute;
+    width: 580px;
+    height: 575px;
+    left: 88px;
+    top: 4526px;
+    outline: hidden;
+}
+
+
+.thumbnailtext .thumbnailh2 {
+
+    position: absolute;
+    top: 4871px;
+    left: 714px;
+    font-size: 38px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.thumbnailtext .thumbnailp {
+
+    position: absolute;
+    top: 4945px;
+    left: 719px;
+    font-size: 24px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+
+
+
+.skills .threeDweb {
+
+    position: absolute;
+    width: 580px;
+    height: 575px;
+    left: 684px;
+    top: 4526px;
+    outline: hidden;
+}
+
+
+.threeDwebtext .threeDwebh2 {
+
+    position: absolute;
+    top: 4871px;
+    left: 1306px;
+    font-size: 38px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.threeDwebtext .threeDwebp {
+
+    position: absolute;
+    top: 4945px;
+    left: 1306px;
+    font-size: 24px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.footer{
+
+    position: absolute;
+    align-content: center;
+    top: 5142px;
+    background-color: #000;
+    height: 50px;
+    width: 100%;
+
+}
+
+.footer .footertext{
+
+    font-size: 38px;
+    font-family: inter;
+    font-size: medium;
+    font-weight: 300;
+    position: absolute;
+    top: 1px;
+    left: 42%;
+
+
+}
